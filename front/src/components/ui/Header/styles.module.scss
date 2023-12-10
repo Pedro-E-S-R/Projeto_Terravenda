@@ -41,7 +41,8 @@
     max-width: 50%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin-bottom: 15px;
+ 
 }
 
 .input-container {
@@ -56,6 +57,7 @@
   width: 1000px;
   min-width: 60%;
   font-family: 'Bahnschrift', sans-serif;
+
 
 }
 
@@ -95,9 +97,10 @@
 }
 
 .selector {
-  font-size: 1rem;
+  font-size: 16px;
  
   max-width: 200px;
+
   
   margin-left: 2%;
 }
@@ -124,18 +127,20 @@
   align-items: center;
   color: #D9D9D9;
   font-family: 'Bahnschrift', sans-serif;
+  font-size: 14px;
 }
 .login-container p{
-  font-size: 0.9vw;
+  font-size: 16px;
+ 
 }
 .login-container a{
-  font-size: 0.9vw;
+  font-size: 16px;
   text-decoration: none;
-  color: #D9D9D9;
+  color: #ebebeb;
   cursor: pointer;
 }
 .icon-container{
-  font-size: 4vw;
+  font-size: 60px;
 }
 @media screen and (max-width: 1200px) {
   .login-container{
@@ -144,6 +149,12 @@
   @media screen and (max-width: 1100px) {
     .login-container{
       left: -30vw;
+      p,a{
+        font-size: 12px;
+      }
+      .icon-container{
+        font-size: 40px;
+      }
     }
     .input-container{
       top: 4.5vw;
@@ -167,7 +178,19 @@
       .login-container{
         left: -35vw;
       }
-    
+      @media screen and (max-width: 720px){
+        .login-container{
+          p,a{
+            font-size: 10px;
+          }
+          .icon-container{
+            font-size: 30px;
+          }
+        }
+        .selector{
+          font-size: 11px;
+        }
+      }
     }
   }
 }

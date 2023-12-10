@@ -11,7 +11,9 @@ const customStyles = {
     backgroundColor: '#D9D9D9',
     border: 'none',
     color: '#878585',
-    width: '14vw'
+    width: '14vw',
+    minHeight: '10px',
+    
    
   }),
   singleValue: (provided) => ({
